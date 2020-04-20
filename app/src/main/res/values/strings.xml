@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tap Design Guidelines</string>
+    <string name="tab_text_1">Day Title 1</string>
+    <string name="tab_text_2">Day Title 2</string>
+    <string name="lbl_title">Title</string>
+    <string name="lbl_content">Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content</string>
+    <string name="lbl_show_bottom_sheet">Show bottom-sheet</string>
+    <string name="lbl_hint">hint</string>
+    <string name="lbl_checkbox">Checkbox</string>
+    <string name="lbl_card_view">Card View</string>
+    <string name="lbl_button">Button</string>
+    <string name="lbl_radio_button">Radio Button</string>
+    <string name="lbl_switch">Switch</string>
+    <string name="lbl_togglebutton">ToggleButton</string>
+    <string name="lbl_chip">Chip</string>
+    <string name="lbl_text_view">Text View</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Base Color Scheme-->
+
+    <color name="primaryColor">#ffebee</color>
+    <color name="primaryLightColor">#ffffff</color>
+    <color name="primaryDarkColor">#ccb9bc</color>
+    <color name="secondaryColor">#ad1457</color>
+    <color name="secondaryLightColor">#e35183</color>
+    <color name="secondaryDarkColor">#78002e</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <!--Other colors-->
+
+    <color name="red_200">#cf6679</color>
+    <color name="red_600">#b00020</color>
+
+    <color name="white_50">#ffffff</color>
+
+    <color name="black_800">#121212</color>
+    <color name="black_900">#000000</color>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MyApp" parent="Base.Theme.MyApp">
+
+        <!--Material color attributes (dark theme) -->
+
+        <item name="colorPrimary">@color/black_800</item>
+        <item name="colorPrimaryVariant">@color/black_800</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+
+        <item name="android:colorBackground">@color/black_900</item>
+
+        <item name="colorOnPrimary">@color/white_50</item>
+        <item name="colorOnSecondary">@color/white_50</item>
+        <item name="colorOnBackground">@color/white_50</item>
+        <item name="colorOnSurface">@color/white_50</item>
+        <item name="colorOnError">@color/white_50</item>
+        <item name="colorSurface">@color/black_800</item>
+        <item name="colorError">@color/red_200</item>
+
+        <item name="android:textColorPrimary">@color/secondaryTextColor</item>
+        <item name="android:textColorSecondary">@color/primaryTextColor</item>
+
+        <item name="materialCardViewStyle">@style/Base.Theme.MaterialCardView</item>
+        <item name="textInputStyle">@style/Base.Theme.TextInputLayout</item>
+    </style>
+</resources>
