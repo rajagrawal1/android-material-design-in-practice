@@ -16,6 +16,7 @@
         <item name="android:textColorSecondary">@color/secondaryTextColor</item>
 
         <item name="android:colorBackground">@color/white_50</item>
+
         <item name="colorSurface">@color/white_50</item>
         <item name="colorError">@color/red_600</item>
 

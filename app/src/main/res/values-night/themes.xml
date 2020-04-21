@@ -5,11 +5,15 @@
         <!--Material color attributes (dark theme) -->
 
         <item name="colorPrimary">@color/black_800</item>
-        <item name="colorPrimaryVariant">@color/black_800</item>
+        <item name="colorPrimaryDark">@color/black_800</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
         <item name="colorSecondary">@color/secondaryColor</item>
         <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
 
         <item name="android:colorBackground">@color/black_900</item>
+
+        <item name="android:textColorPrimary">@color/secondaryTextColor</item>
+        <item name="android:textColorSecondary">@color/primaryTextColor</item>
 
         <item name="colorOnPrimary">@color/white_50</item>
         <item name="colorOnSecondary">@color/white_50</item>
@@ -19,8 +23,6 @@
         <item name="colorSurface">@color/black_800</item>
         <item name="colorError">@color/red_200</item>
 
-        <item name="android:textColorPrimary">@color/secondaryTextColor</item>
-        <item name="android:textColorSecondary">@color/primaryTextColor</item>
 
         <item name="materialCardViewStyle">@style/Base.Theme.MaterialCardView</item>
         <item name="textInputStyle">@style/Base.Theme.TextInputLayout</item>
