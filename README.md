@@ -1,7 +1,9 @@
 # Design reference and guidelines for theAsianParent (TAP) apps.
 
-## Configuration
+## Purpose
 - This project is intended to apply and demonstrate the usage of proper color palette, typography and shapes as per the latest [material design guidelines](https://material.io/design/introduction "material design guidelines").
+
+## Configuration
 - Uses both app wide and app level theming.
 - Min SDK support is API 16
 - This app will respond and auto switch to day/ night mode depending on the system settings.
@@ -9,8 +11,7 @@
 ## Usage
 - Use [color paletter generator tool](https://material.io/resources/color "generator tool") for preparing a new color scheme, export to the Android format (color.xml) and use the color variables to replace the existing set in the project.
 - You will be largely be dealing with:
-		colorPrimary, colorPrimaryDark/ colorPrimaryVariant, colorSecondary and colorSecondaryVariant.
-		android:textColorPrimary, android:textColorSecondary and android:colorBackground.
+		colorPrimary, colorPrimaryDark/ colorPrimaryVariant, colorSecondary,  colorSecondaryVariant, android:textColorPrimary, android:textColorSecondary and android:colorBackground.
 - If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You may leave 'Other colors' constant since they are neutral for most cases.
 - Concept: ![Alt text](/screens/concept.png?raw=true "Concept")
 - Concept applied: ![Alt text](/screens/demo.png?raw=true "Concept applied")
