@@ -13,7 +13,15 @@
 - themes.xml will do the job of referring to the appropriate styling templates on runtime - whether day or night.
 - Use [color palette generator tool](https://material.io/resources/color "generator tool") for preparing a new color scheme, export to the Android format (color.xml) and use the color variables to replace the existing set in the project.
 - You will be largely be dealing with:
-		colorPrimary, colorPrimaryDark/ colorPrimaryVariant, colorSecondary,  colorSecondaryVariant, android:textColorPrimary, android:textColorSecondary and android:colorBackground.
+
+		* colorPrimary
+		* colorPrimaryDark/ colorPrimaryVariant
+		* colorSecondary
+		* colorSecondaryVariant
+		* android:textColorPrimary
+		* android:textColorSecondary
+		* android:colorBackground
+
 - If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You may leave 'Other colors' constant since they are neutral for most cases.
 - Concept: ![Alt text](/screens/concept.png?raw=true "Concept")
 - Concept applied: ![Alt text](/screens/demo.png?raw=true "Concept applied")
@@ -24,11 +32,12 @@
  So it's useful to maintain both variables even though they point to the exact same colors.
 
 ## What's coming soon
-- Application of material typography and shapes
+- Application of material typography and shapes.
 - Application of conditional theming attributes to take advantage of API specific features.
-- More examples
+- More examples.
 
 ### References
+- Screens grabbed (slightly modified) from - https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my
 - Color guide: https://material.io/design/color/the-color-system.html
 - Color palette generator tool: https://material.io/resources/color
 - Key lines and grids reference - https://www.youtube.com/watch?v=ESJuU2gp-P8
