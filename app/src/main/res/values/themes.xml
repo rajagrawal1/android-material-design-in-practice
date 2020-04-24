@@ -25,13 +25,13 @@
         <item name="colorOnBackground">@color/black_900</item>
         <item name="colorOnSurface">@color/black_900</item>
         <item name="colorOnError">@color/white_50</item>
+        
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item> // this applies a default theme for alert dialogs.
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item> // this applies a default theme for bottom sheets.
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item> // this applies a default theme for toolbars.
 
-        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
-        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>
-        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
-
-        <item name="materialCardViewStyle">@style/Base.Theme.MaterialCardView</item>
-        <item name="textInputStyle">@style/Base.Theme.TextInputLayout</item>
+        <item name="materialCardViewStyle">@style/Base.Theme.MaterialCardView</item> // this applies a default theme for material card views.
+        <item name="textInputStyle">@style/Base.Theme.TextInputLayout</item> // this applies a default theme for text inputs.
     </style>
 
     <style name="Base.Theme.MaterialThemeBuilder" parent="Theme.MaterialComponents.DayNight.DarkActionBar"/>
