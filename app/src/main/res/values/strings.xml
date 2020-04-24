@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Tap Design Guidelines</string>
-    <string name="tab_text_1">Day Title 1</string>
-    <string name="tab_text_2">Day Title 2</string>
+    <string name="app_name">Material Design In Practice</string>
+    <string name="tab_text_1">Day Widgets</string>
+    <string name="tab_text_2">Day Modals</string>
     <string name="lbl_title">Title</string>
-    <string name="lbl_content">Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content</string>
+    <string name="lbl_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
     <string name="lbl_show_bottom_sheet">Show bottom-sheet</string>
-    <string name="lbl_hint">hint</string>
+    <string name="hint">hint</string>
     <string name="lbl_checkbox">Checkbox</string>
     <string name="lbl_card_view">Card View</string>
     <string name="lbl_button">Button</string>
@@ -14,4 +14,5 @@
     <string name="lbl_togglebutton">ToggleButton</string>
     <string name="lbl_chip">Chip</string>
     <string name="lbl_text_view">Text View</string>
+    <string name="lbl_day_night">Day/ Night</string>
 </resources>

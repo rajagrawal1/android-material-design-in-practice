@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="tab_text_1">Night Title 1</string>
-    <string name="tab_text_2">Night Title 2</string>
+    <string name="tab_text_1">Night Widgets</string>
+    <string name="tab_text_2">Night Modals</string>
 </resources>

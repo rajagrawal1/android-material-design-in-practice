@@ -38,7 +38,7 @@
 
     <style name="Base.Theme.MaterialCardView" parent="Widget.MaterialComponents.CardView">
         <item name="cardElevation">@dimen/card_elevation</item>
-        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardPreventCornerOverlap">false</item>
         <item name="cardUseCompatPadding">true</item>
     </style>
 

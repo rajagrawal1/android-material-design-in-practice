@@ -1,4 +1,4 @@
-package com.tickledmedia.design
+package com.example.design
 
 import android.content.Context
 import androidx.fragment.app.Fragment

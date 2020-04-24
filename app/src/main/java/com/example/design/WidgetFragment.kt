@@ -1,4 +1,4 @@
-package com.tickledmedia.design
+package com.example.design
 
 import android.os.Bundle
 import android.view.LayoutInflater

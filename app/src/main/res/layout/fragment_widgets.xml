@@ -22,7 +22,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/lbl_hint" />
+                android:hint="@string/hint" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.checkbox.MaterialCheckBox
@@ -34,24 +34,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_input_layout" />
 
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/card_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_horizontal_margin"
-            android:clickable="true"
-            android:focusable="true"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/checkbox">
-
-            <com.google.android.material.textview.MaterialTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="72dp"
-                android:text="@string/lbl_card_view" />
-
-        </com.google.android.material.card.MaterialCardView>
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button"
             android:layout_width="wrap_content"
@@ -59,7 +41,7 @@
             android:layout_margin="@dimen/standard_margin"
             android:text="@string/lbl_button"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/card_view" />
+            app:layout_constraintTop_toBottomOf="@id/checkbox" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/radio_button"
@@ -113,6 +95,24 @@
             android:layout_margin="@dimen/standard_margin"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progressBar">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="72dp"
+                android:text="@string/lbl_card_view" />
+
+        </com.google.android.material.card.MaterialCardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
