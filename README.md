@@ -12,7 +12,7 @@
 ## Usage
 - themes.xml will do the job of referring to the appropriate styling templates on runtime - whether day or night.
 - Use [color palette generator tool](https://material.io/resources/color "generator tool") for preparing a new color scheme, export to the Android format (color.xml) and use the color variables to replace the existing set in the project.
-- For applying app-wide default colors, you will be largely be dealing with:
+- For applying app-wide default colors, you will be largely dealing with:
 
 		* colorPrimary
 		* colorPrimaryDark/ colorPrimaryVariant
