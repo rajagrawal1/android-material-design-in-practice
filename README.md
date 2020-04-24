@@ -25,7 +25,7 @@
 - If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You may leave 'Other colors' constant since they are neutral for most cases.
 - Concept: ![Alt text](/screens/concept.png?raw=true "Concept").
 - Concept applied: ![Alt text](/screens/demo.png?raw=true "Concept applied").
-- Take advantage of a new feature in the design library that allows app-wide application of common styling for widgets from a single place - Refer to the base theme for an example.
+- Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for widgets from a single place - Refer to the base theme for an example.
 
 ## Caveats
 - For unclear reasons, *colorPrimaryVariant* does NOT reflect on the status bar color despite the official material design guidelines - https://material.io/design/color/the-color-system.html#color-theme-creation. However, *colorPrimaryDark* DOES work [(Issue tracker)](https://github.com/material-components/material-components-android/issues/468 "(Issue tracker)").
