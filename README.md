@@ -5,7 +5,7 @@
 - Inspired from - https://github.com/material-components/material-components-android.
 
 ## Configuration
-- Uses both app wide and app level theming.
+- Uses both app wide and widget level theming.
 - Min SDK support is API 19.
 - This app will respond and auto switch to day/ night mode depending on the system settings.
 
