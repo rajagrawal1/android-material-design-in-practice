@@ -36,6 +36,10 @@
 - Application of conditional theming attributes to take advantage of API specific features.
 - More examples.
 
+## Try the demo app
+
+Visit the [releases](https://github.com/sabergeek/android-material-design-in-practice/releases "releases") section to download the latest iterations of the app.
+
 ### References
 - Screens grabbed (slightly modified) from - https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my
 - Color guide: https://material.io/design/color/the-color-system.html
