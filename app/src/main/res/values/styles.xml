@@ -1,15 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="ThemeOverlay.MyTheme.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+    <!-- TextInputLayout styles -->
+
+    <style name="Base.Theme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="hintTextColor">?colorSecondaryVariant</item>
+        <item name="boxStrokeColor">?colorSecondary</item>
+    </style>
+
+    <!-- Tab Layout styles -->
+
+    <style name="Base.Theme.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="elevation">21dp</item>
+        <item name="tabBackground">?colorPrimary</item>
+        <item name="tabIndicatorColor">?colorSecondaryVariant</item>
+        <item name="tabSelectedTextColor">?colorSecondary</item>
+        <item name="tabTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <!-- Button styles -->
+
+    <style name="Base.Theme.ButtonLayout" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?colorSecondary</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <!-- Bottom sheet styles -->
+
+    <style name="ThemeOverlay.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="bottomSheetStyle">@style/Widget.MyTheme.BottomSheet.Modal</item>
+        <item name="bottomSheetStyle">@style/ThemeOverlay.BottomSheet.Shape</item>
         <item name="android:navigationBarDividerColor" tools:ignore="NewApi">@android:color/transparent</item>
     </style>
 
-    <style name="Widget.MyTheme.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+    <style name="ThemeOverlay.BottomSheet.Shape" parent="Widget.MaterialComponents.BottomSheet.Modal">
         <item name="shapeAppearanceOverlay">?attr/shapeAppearanceLargeComponent</item>
+    </style>
+
+    <!-- Material card view styles -->
+
+    <style name="ThemOverlay.MaterialCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ThemeOverlay.MaterialCardView.Cut.Corner" parent="ThemOverlay.MaterialCardView">
+        <item name="shapeAppearance">@style/ShapeAppearance.Cut.Corners</item>
+    </style>
+
+    <style name="ThemeOverlay.MaterialCardView.Partial.Cut.Corner" parent="ThemOverlay.MaterialCardView">
+        <item name="shapeAppearance">@style/ShapeAppearance.Partial.Cut.Corners</item>
+    </style>
+
+    <style name="ThemeOverlay.MaterialCardView.Rounded" parent="ThemOverlay.MaterialCardView">
+        <item name="shapeAppearance">@style/ShapeAppearance.Rounded.Corners</item>
+    </style>
+
+    <style name="ThemeOverlay.MaterialCardView.Partial.Rounded" parent="ThemOverlay.MaterialCardView">
+        <item name="shapeAppearance">@style/ShapeAppearance.Partial.Rounded.Corners</item>
+    </style>
+
+    <!-- Shapes -->
+
+    <style name="ShapeAppearance.Cut.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Partial.Cut.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamilyTopLeft">cut</item>
+        <item name="cornerFamilyBottomRight">cut</item>
+        <item name="cornerSizeTopLeft">18dp</item>
+        <item name="cornerSizeBottomRight">18dp </item>
+    </style>
+
+    <style name="ShapeAppearance.Rounded.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">36dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Partial.Rounded.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeTopLeft">36dp</item>
+        <item name="cornerSizeBottomRight">36dp</item>
     </style>
 
 </resources>

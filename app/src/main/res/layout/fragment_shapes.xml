@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_marginStart="@dimen/standard_margin"
+        android:layout_marginEnd="@dimen/standard_margin"
+        android:orientation="vertical"
+        tools:context=".WidgetFragment">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/card_with_global_styling"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/ThemeOverlay.MaterialCardView.Cut.Corner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/card_with_cut_corners"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/ThemeOverlay.MaterialCardView.Partial.Cut.Corner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/card_with_partial_cut_corners"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/ThemeOverlay.MaterialCardView.Rounded"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/card_with_rounded_corners"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/ThemeOverlay.MaterialCardView.Partial.Rounded"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/card_with_partial_rounded_corners"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

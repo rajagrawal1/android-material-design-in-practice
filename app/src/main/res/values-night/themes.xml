@@ -4,11 +4,11 @@
 
         <!--Material color attributes (dark theme) -->
 
-        <item name="colorPrimary">@color/black_800</item>
-        <item name="colorPrimaryDark">@color/black_800</item>
-        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
-        <item name="colorSecondary">@color/secondaryColor</item>
-        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorPrimary">@color/black_800</item> <!--toolbar color-->
+        <item name="colorPrimaryDark">@color/black_800</item> <!--status bar color-->
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item> <!--status bar color-->
+        <item name="colorSecondary">@color/secondaryColor</item> <!--fab icon color-->
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item> <!--use sparingly-->
 
         <item name="android:colorBackground">@color/black_900</item>
 
@@ -23,7 +23,7 @@
         <item name="colorSurface">@color/black_800</item>
         <item name="colorError">@color/red_200</item>
 
-        <item name="materialCardViewStyle">@style/Base.Theme.MaterialCardView</item>
+        <item name="materialCardViewStyle">@style/ThemOverlay.MaterialCardView</item>
 
         <item name="textInputStyle">@style/Base.Theme.TextInputLayout</item>
     </style>

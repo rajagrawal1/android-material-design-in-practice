@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/swtich"
+        android:icon="@drawable/ic_day_night"
         android:title="@string/lbl_day_night"
         app:showAsAction="always" />
 </menu>

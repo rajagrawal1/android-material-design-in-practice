@@ -15,4 +15,10 @@
     <string name="lbl_chip">Chip</string>
     <string name="lbl_text_view">Text View</string>
     <string name="lbl_day_night">Day/ Night</string>
+    <string name="tab_text_3">Day Shapes</string>
+    <string name="card_with_global_styling">Card with global styling</string>
+    <string name="card_with_cut_corners">Card with cut corners</string>
+    <string name="card_with_partial_cut_corners">Card with partial cut corners</string>
+    <string name="card_with_partial_rounded_corners">Card with partial rounded corners</string>
+    <string name="card_with_rounded_corners">Card with rounded corners</string>
 </resources>

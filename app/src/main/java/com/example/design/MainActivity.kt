@@ -1,10 +1,12 @@
 package com.example.design
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_NO
 import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_YES
 import androidx.viewpager.widget.ViewPager
@@ -35,10 +37,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.swtich) {
-            if (delegate.localNightMode == MODE_NIGHT_YES) {
-                delegate.localNightMode = MODE_NIGHT_NO
-            } else {
-                delegate.localNightMode = MODE_NIGHT_YES
+            when (resources?.configuration?.uiMode?.and(Configuration.UI_MODE_NIGHT_MASK)) {
+                Configuration.UI_MODE_NIGHT_YES -> {
+                    AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_NO)
+                }
+                Configuration.UI_MODE_NIGHT_NO -> {
+                    AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_YES)
+                }
             }
         }
         return true
