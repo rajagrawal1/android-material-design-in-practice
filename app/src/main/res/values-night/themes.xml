@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
+
+    <!--Material color attributes (dark theme) -->
+
     <style name="Theme.MyApp" parent="Base.Theme.MyApp">
-
-        <!--Material color attributes (dark theme) -->
-
         <item name="colorPrimary">@color/black_800</item> <!--toolbar color-->
         <item name="colorPrimaryDark">@color/black_800</item> <!--status bar color-->
         <item name="colorPrimaryVariant">@color/primaryLightColor</item> <!--status bar color-->
