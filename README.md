@@ -26,9 +26,9 @@
 - Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
 - Concept: ![Alt text](/screens/concept.png?raw=true "Concept").
 - Concept applied (For reference only. The demo app in the project is different): ![Alt text](/screens/demo.png?raw=true "Concept applied").
-- App screenshot: 1 ![Alt text](/screens/1.png?raw=true "App screenshot: 1").
-- App screenshot: 2 ![Alt text](/screens/2.png?raw=true "App screenshot: 2").
-- App screenshot: 3 ![Alt text](/screens/3.png?raw=true "App screenshot: 3").
+- App screenshot: 1 ![Alt text](/screens/1.jpg?raw=true "App screenshot: 1").
+- App screenshot: 2 ![Alt text](/screens/2.jpg?raw=true "App screenshot: 2").
+- App screenshot: 3 ![Alt text](/screens/3.jpg?raw=true "App screenshot: 3").
 
 ## Caveats
 - For unclear reasons, *colorPrimaryVariant* does NOT reflect on the status bar color despite the official material design guidelines - https://material.io/design/color/the-color-system.html#color-theme-creation. However, *colorPrimaryDark* DOES work [(Issue tracker)](https://github.com/material-components/material-components-android/issues/468 "(Issue tracker)").
