@@ -37,11 +37,12 @@
 <img src="/screens/concept.png" width="500" />
 
 ## Concept applied:
+<br>
+(Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em)
+<br>
 <img src="/screens/demo.png" alt="For reference only. The demo app in the project is different." width="500" />
-<br>(Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em)
-   <br>
 
-##App screenshots
+## App screenshots
 <p float="left">
   <img src="/screens/1.png" alt="Default font scaling" width="200" />
   <img src="/screens/2.png" alt="Typogtraphy with default font scaling" width="200" />
