@@ -14,13 +14,13 @@ class PagerAdapter(private val context: Context, fm: FragmentManager) :
     override fun getItem(position: Int): Fragment {
         return when (position) {
             0 -> {
-                WidgetFragment.newInstance()
+                MaterialMiscWidgetsFragment.newInstance()
             }
             1 -> {
-                ModalFragment.newInstance()
+                MaterialModalsFragment.newInstance()
             }
             else -> {
-                ShapesFragment.newInstance()
+                MaterialCardsFragment.newInstance()
             }
         }
     }

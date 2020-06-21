@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-class WidgetFragment : Fragment() {
+class MaterialMiscWidgetsFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -19,8 +19,8 @@ class WidgetFragment : Fragment() {
     companion object {
 
         @JvmStatic
-        fun newInstance(): WidgetFragment {
-            return WidgetFragment()
+        fun newInstance(): MaterialMiscWidgetsFragment {
+            return MaterialMiscWidgetsFragment()
         }
     }
 }

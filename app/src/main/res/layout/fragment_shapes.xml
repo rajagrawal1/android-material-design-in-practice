@@ -11,7 +11,7 @@
         android:layout_marginTop="@dimen/standard_margin"
         android:layout_marginEnd="@dimen/standard_margin"
         android:orientation="vertical"
-        tools:context=".WidgetFragment">
+        tools:context=".MaterialMiscWidgetsFragment">
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"

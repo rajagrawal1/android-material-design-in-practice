@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-class ShapesFragment : Fragment() {
+class MaterialCardsFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -19,8 +19,8 @@ class ShapesFragment : Fragment() {
     companion object {
 
         @JvmStatic
-        fun newInstance(): ShapesFragment {
-            return ShapesFragment()
+        fun newInstance(): MaterialCardsFragment {
+            return MaterialCardsFragment()
         }
     }
 }
