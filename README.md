@@ -29,11 +29,11 @@
 
 - If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You can leave 'Other colors' as it is, since they can be suitable for most cases.
 - Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
-- Concept (Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em):
+- Concept:
     <br> <br>
-    <img src="/screens/concept.png" alt="Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em" width="500" />
+    <img src="/screens/concept.png" width="500" />
     <br>
-- Concept applied:
+- Concept applied (Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em):
     <br> <br>
      <img src="/screens/demo.png" alt="For reference only. The demo app in the project is different" width="500" />
      <br>
