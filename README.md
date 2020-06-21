@@ -34,14 +34,11 @@
 - **App-wide widget theming** - Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
 
 ## Concept
- <br> <br>
-    <img src="/screens/concept.png" width="500" />
-  <br>
+<img src="/screens/concept.png" width="500" />
 
-##Concept applied:
- <br> <br>
-     <img src="/screens/demo.png" alt="For reference only. The demo app in the project is different" width="500" />
-	 (Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em)
+## Concept applied:
+<img src="/screens/demo.png" alt="For reference only. The demo app in the project is different." width="500" />
+<br>(Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em)
    <br>
 
 ##App screenshots
