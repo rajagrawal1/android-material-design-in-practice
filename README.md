@@ -13,7 +13,7 @@
 - **styles.xml** - The view specific styles are nearly declared under styles.xml.
 
 - **Scaling typography** - This section contains 4 sizing variants for the text - sp, ssp, dp, sdp.
-	- "sp and sdp" are good alternatives over sp and dp if you do not wish to manually manage multiple dimens.xml for different screens sizes. The library handles it for you. Be aware that while developing for tablets, this may not be the best idea.
+	- "ssp and sdp" are good alternatives over "sp and dp" if you do not wish to manage varying dimens.xml. The intuit library handles it for you. Be aware that while developing for tablets, this may not be the best idea.
 	- The main difference you can see is that sp and ssp respond when user changes the font size from system settings. However, sp and sdp do not. Run the MDIP app, switch to typography tab and test it out yourself.
 
 - **Easy color management** - Use [color palette generator tool](https://material.io/resources/color "generator tool") for preparing a new color scheme, export to the Android format (color.xml) and use the color variables to replace the existing set in the project.
@@ -67,6 +67,8 @@
 Visit the [releases](https://github.com/sabergeek/android-material-design-in-practice/releases "releases") section to download the latest iterations of the app.
 
 ### References
+- SSP library - https://github.com/intuit/ssp
+- SDP library - https://github.com/intuit/sdp
 - Color guide: https://material.io/design/color/the-color-system.html
 - Color palette generator tool: https://material.io/resources/color
 - Key lines and grids reference - https://www.youtube.com/watch?v=ESJuU2gp-P8
