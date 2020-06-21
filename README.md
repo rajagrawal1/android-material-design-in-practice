@@ -37,10 +37,11 @@
  <br> <br>
     <img src="/screens/concept.png" width="500" />
   <br>
-##Concept applied
-*(Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em)*:
+
+##Concept applied:
  <br> <br>
      <img src="/screens/demo.png" alt="For reference only. The demo app in the project is different" width="500" />
+	 (Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em)
    <br>
 
 ##App screenshots
