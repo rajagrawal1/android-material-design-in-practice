@@ -27,17 +27,23 @@
 		* android:textColorSecondary
 		* android:colorBackground
 
-- If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You can leave 'Other colors' as it is, since they can be suitable for most cases.
-- Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
-- Concept:
-    <br> <br>
+-	 If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You can leave 'Other colors' as it is, since they can be suitable for most cases.
+
+- **Day/ Night mode** - Toggle by clicking the top right icon on toolbar.
+
+- **App-wide widget theming** - Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
+
+## Concept
+ <br> <br>
     <img src="/screens/concept.png" width="500" />
-    <br>
-- Concept applied (Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em):
-    <br> <br>
+  <br>
+##Concept applied
+*(Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em)*:
+ <br> <br>
      <img src="/screens/demo.png" alt="For reference only. The demo app in the project is different" width="500" />
-     <br>
-- App screenshots:
+   <br>
+
+##App screenshots
 <p float="left">
   <img src="/screens/1.png" alt="Default font scaling" width="200" />
   <img src="/screens/2.png" alt="Typogtraphy with default font scaling" width="200" />
