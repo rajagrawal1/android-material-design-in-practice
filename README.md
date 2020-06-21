@@ -31,25 +31,25 @@
 - Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
 - Concept:
     <br>
-    <img src="/screens/concept.png" alt="Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em" width="200" />
+    <img src="/screens/concept.png" alt="Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em" width="500" />
     <figcaption> Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em </figcaption>
     <br>
 - Concept applied:
     <br>
-     <img src="/screens/concept.png" alt="For reference only. The demo app in the project is different" width="200" />
+     <img src="/screens/demo.png" alt="For reference only. The demo app in the project is different" width="500" />
      <br>
 - App screenshots:
 <br>
 <p float="left">
-  <img src="/screens/1.png" alt="Default font scaling" width="200" />
-  <img src="/screens/2.png" alt="Typogtraphy with default font scaling" width="200" />
-  <img src="/screens/3.png" alt="Increased font scaling" width="200" />
-  <img src="/screens/4.png" alt="Typography with increased font scaling" width="200" />
-  <img src="/screens/5.png" alt="Material Buttons" width="200" />
-  <img src="/screens/6.png" alt="Material Text Input Layouts" width="200" />
-  <img src="/screens/7.png" alt="Material Cards" width="200" />
-  <img src="/screens/8.png" alt="Material Bottom Sheet" width="200" />
-  <img src="/screens/9.png" alt="Miscellaneous widgets" width="200" />
+  <img src="/screens/1.png" alt="Default font scaling" width="500" />
+  <img src="/screens/2.png" alt="Typogtraphy with default font scaling" width="500" />
+  <img src="/screens/3.png" alt="Increased font scaling" width="500" />
+  <img src="/screens/4.png" alt="Typography with increased font scaling" width="500" />
+  <img src="/screens/5.png" alt="Material Buttons" width="500" />
+  <img src="/screens/6.png" alt="Material Text Input Layouts" width="500" />
+  <img src="/screens/7.png" alt="Material Cards" width="500" />
+  <img src="/screens/8.png" alt="Material Bottom Sheet" width="500" />
+  <img src="/screens/9.png" alt="Miscellaneous widgets" width="500" />
 </p>
 
 
