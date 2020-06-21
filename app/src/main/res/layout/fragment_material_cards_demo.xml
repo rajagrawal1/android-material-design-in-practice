@@ -7,15 +7,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="@dimen/standard_margin"
-        android:layout_marginTop="@dimen/standard_margin"
-        android:layout_marginEnd="@dimen/standard_margin"
         android:orientation="vertical"
         tools:context=".MaterialMiscWidgetsFragment">
 
+        <!-- depends on default card theme as declared in styles.xml-->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/card_height">
+            android:layout_height="@dimen/card_height"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin">
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
@@ -27,9 +30,14 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            style="@style/ThemeOverlay.MaterialCardView.Cut.Corner"
+            style="@style/MaterialCardView.Cut.Corner"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/card_height">
+            android:layout_height="@dimen/card_height"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
@@ -41,9 +49,14 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            style="@style/ThemeOverlay.MaterialCardView.Partial.Cut.Corner"
+            style="@style/MaterialCardView.Partial.Cut.Corner"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/card_height">
+            android:layout_height="@dimen/card_height"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
@@ -55,9 +68,14 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            style="@style/ThemeOverlay.MaterialCardView.Rounded"
+            style="@style/MaterialCardView.Rounded"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/card_height">
+            android:layout_height="@dimen/card_height"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
@@ -69,9 +87,14 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            style="@style/ThemeOverlay.MaterialCardView.Partial.Rounded"
+            style="@style/MaterialCardView.Partial.Rounded"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/card_height">
+            android:layout_height="@dimen/card_height"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
     <dimen name="standard_margin">16dp</dimen>
-    <dimen name="standard_padding">18dp</dimen>
     <dimen name="card_height">180dp</dimen>
+    <dimen name="material_button_corners">6dp</dimen>
+    <dimen name="standard_padding">12dp</dimen>
 </resources>

@@ -9,18 +9,37 @@ class PagerAdapter(private val context: Context, fm: FragmentManager) :
     FragmentPagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
     private val listOfTitles =
-        arrayOf(R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_3)
+        arrayOf(
+            R.string.tab_typography,
+            R.string.tab_buttons,
+            R.string.tab_text_input,
+            R.string.tab_cards,
+            R.string.tab_modals,
+            R.string.tab_misc
+        )
 
     override fun getItem(position: Int): Fragment {
         return when (position) {
             0 -> {
-                MaterialMiscWidgetsFragment.newInstance()
+                MaterialTypographyFragment.newInstance()
             }
             1 -> {
+                MaterialButtonsDemoFragment.newInstance()
+            }
+            2 -> {
+                MaterialTextInputDemoFragment.newInstance()
+            }
+            3 -> {
+                MaterialCardsDemoFragment.newInstance()
+            }
+            4 -> {
                 MaterialModalsFragment.newInstance()
             }
+            5 -> {
+                MaterialMiscWidgetsFragment.newInstance()
+            }
             else -> {
-                MaterialCardsFragment.newInstance()
+                MaterialTypographyFragment.newInstance()
             }
         }
     }

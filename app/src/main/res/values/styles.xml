@@ -3,46 +3,64 @@
 
     <!-- TextInputLayout styles -->
 
-    <style name="Base.Theme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+    <style name="App.Theme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="hintTextColor">?colorSecondaryVariant</item>
         <item name="boxStrokeColor">?colorSecondary</item>
+        <item name="theme">@style/TextInputCursorColor</item>
     </style>
 
     <!-- Tab Layout styles -->
 
-    <style name="Base.Theme.TabLayout" parent="Widget.MaterialComponents.TabLayout">
-        <item name="elevation">21dp</item>
+    <style name="App.Theme.TabLayout" parent="Widget.MaterialComponents.TabLayout">
         <item name="tabBackground">?colorPrimary</item>
         <item name="tabIndicatorColor">?colorSecondaryVariant</item>
         <item name="tabSelectedTextColor">?colorSecondary</item>
         <item name="tabTextColor">?android:textColorPrimary</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
+    <style name="TextInputCursorColor" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="colorControlActivated">#7c808e</item>
     </style>
 
     <!-- Button styles -->
 
-    <style name="Base.Theme.ButtonLayout" parent="Widget.MaterialComponents.Button">
+    <style name="App.Theme.Button" parent="Widget.MaterialComponents.Button.TextButton">
         <item name="backgroundTint">?colorSecondary</item>
-        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="App.Theme.Button.Pink" parent="App.Theme.Button">
+        <item name="shapeAppearanceOverlay">@style/DefaultMaterialButtonShape</item>
+        <item name="android:padding">12dp</item>
+        <item name="rippleColor">@color/secondaryLightColor</item>
+        <item name="backgroundTint">@drawable/material_button_solid_states_pink</item>
+    </style>
+
+    <!-- Button styles -->
+
+    <style name="DefaultMaterialButtonShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/material_button_corners</item>
     </style>
 
     <!-- Bottom sheet styles -->
 
-    <style name="ThemeOverlay.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+    <style name="App.Theme.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="bottomSheetStyle">@style/ThemeOverlay.BottomSheet.Shape</item>
+        <item name="bottomSheetStyle">@style/App.Theme.BottomSheet.Shape</item>
         <item name="android:navigationBarDividerColor" tools:ignore="NewApi">
             @android:color/transparent
         </item>
     </style>
 
-    <style name="ThemeOverlay.BottomSheet.Shape" parent="Widget.MaterialComponents.BottomSheet.Modal">
+    <style name="App.Theme.BottomSheet.Shape" parent="Widget.MaterialComponents.BottomSheet.Modal">
         <item name="shapeAppearanceOverlay">?attr/shapeAppearanceLargeComponent</item>
     </style>
 
     <!-- Material card view styles -->
 
-    <style name="ThemOverlay.MaterialCardView" parent="Widget.MaterialComponents.CardView">
+    <style name="App.Theme.MaterialCardView" parent="Widget.MaterialComponents.CardView">
         <item name="cardElevation">@dimen/card_elevation</item>
         <item name="cardPreventCornerOverlap">false</item>
         <item name="cardUseCompatPadding">true</item>
@@ -50,23 +68,23 @@
         <item name="android:focusable">true</item>
     </style>
 
-    <style name="ThemeOverlay.MaterialCardView.Cut.Corner" parent="ThemOverlay.MaterialCardView">
+    <style name="MaterialCardView.Cut.Corner" parent="App.Theme.MaterialCardView">
         <item name="shapeAppearance">@style/ShapeAppearance.Cut.Corners</item>
     </style>
 
-    <style name="ThemeOverlay.MaterialCardView.Partial.Cut.Corner" parent="ThemOverlay.MaterialCardView">
+    <style name="MaterialCardView.Partial.Cut.Corner" parent="App.Theme.MaterialCardView">
         <item name="shapeAppearance">@style/ShapeAppearance.Partial.Cut.Corners</item>
     </style>
 
-    <style name="ThemeOverlay.MaterialCardView.Rounded" parent="ThemOverlay.MaterialCardView">
+    <style name="MaterialCardView.Rounded" parent="App.Theme.MaterialCardView">
         <item name="shapeAppearance">@style/ShapeAppearance.Rounded.Corners</item>
     </style>
 
-    <style name="ThemeOverlay.MaterialCardView.Partial.Rounded" parent="ThemOverlay.MaterialCardView">
+    <style name="MaterialCardView.Partial.Rounded" parent="App.Theme.MaterialCardView">
         <item name="shapeAppearance">@style/ShapeAppearance.Partial.Rounded.Corners</item>
     </style>
 
-    <!-- Shapes -->
+    <!-- Card shapes -->
 
     <style name="ShapeAppearance.Cut.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
         <item name="cornerFamily">cut</item>
@@ -90,6 +108,28 @@
         <item name="cornerFamilyBottomRight">rounded</item>
         <item name="cornerSizeTopLeft">36dp</item>
         <item name="cornerSizeBottomRight">36dp</item>
+    </style>
+
+    <!-- Typography -->
+
+    <style name="App.Theme.Text.Title.SP" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="App.Theme.Text.Title.DP" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize" tools:ignore="SpUsage">34dp</item>
+    </style>
+
+    <style name="App.Theme.Text.Title.SSP" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">@dimen/_34ssp</item>
+    </style>
+
+    <style name="App.Theme.Text.Title.SDP" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">@dimen/_34sdp</item>
     </style>
 
 </resources>

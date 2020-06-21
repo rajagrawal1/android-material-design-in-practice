@@ -4,19 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.google.android.material.textview.MaterialTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/standard_margin"
-        android:layout_marginLeft="@dimen/standard_margin"
-        android:layout_marginTop="@dimen/standard_margin"
-        android:layout_marginEnd="@dimen/standard_margin"
-        android:layout_marginRight="@dimen/standard_margin"
-        android:gravity="center_vertical"
-        android:text="@string/lbl_title"
-        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
-
-    <com.google.android.material.textview.MaterialTextView
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submit"
+        style="@style/App.Theme.Button.Pink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/standard_margin"
@@ -24,8 +14,19 @@
         android:layout_marginTop="@dimen/standard_margin"
         android:layout_marginEnd="@dimen/standard_margin"
         android:layout_marginRight="@dimen/standard_margin"
-        android:layout_marginBottom="@dimen/standard_margin"
-        android:text="@string/lbl_content"
-        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+        android:text="@string/lbl_submit" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submit_disabled"
+        style="@style/App.Theme.Button.Pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/standard_margin"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_marginEnd="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:enabled="false"
+        android:text="@string/lbl_disabled" />
 
 </LinearLayout>

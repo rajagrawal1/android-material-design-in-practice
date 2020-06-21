@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Material Design In Practice</string>
-    <string name="tab_text_1">Day Widgets</string>
-    <string name="tab_text_2">Day Modals</string>
+    <string name="tab_buttons" translatable="false">Buttons</string>
+    <string name="tab_text_input" translatable="false">Text Input</string>
+    <string name="tab_cards" translatable="false">Cards</string>
+    <string name="tab_modals" translatable="false">Modals</string>
+    <string name="tab_misc" translatable="false">Misc</string>
+    <string name="tab_typography" translatable="false">Typography</string>
     <string name="lbl_title">Title</string>
     <string name="lbl_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
     <string name="lbl_show_bottom_sheet">Show bottom-sheet</string>
@@ -16,9 +20,18 @@
     <string name="lbl_text_view">Text View</string>
     <string name="lbl_day_night">Day/ Night</string>
     <string name="tab_text_3">Day Shapes</string>
-    <string name="card_with_global_styling">Card with global styling</string>
+    <string name="card_with_global_styling">Card with default styling</string>
     <string name="card_with_cut_corners">Card with cut corners</string>
     <string name="card_with_partial_cut_corners">Card with partial cut corners</string>
     <string name="card_with_partial_rounded_corners">Card with partial rounded corners</string>
     <string name="card_with_rounded_corners">Card with rounded corners</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="lbl_disabled">Disabled</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_title_34sp">Title Text - 34sp</string>
+    <string name="lbl_title_34ssp">Title Text - 34ssp</string>
+    <string name="lbl_title_34dp">Title Text - 34dp</string>
+    <string name="lbl_title_34sdp">Title Text - 34sdp</string>
 </resources>

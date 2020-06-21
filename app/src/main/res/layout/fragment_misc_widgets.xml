@@ -11,6 +11,7 @@
         tools:context=".MaterialMiscWidgetsFragment">
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/App.Theme.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/standard_margin">

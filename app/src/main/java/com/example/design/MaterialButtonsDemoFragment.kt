@@ -5,23 +5,23 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.design.databinding.FragmentMiscWidgetsBinding
+import com.example.design.databinding.FragmentMaterialButtonsDemoBinding
 
-class MaterialMiscWidgetsFragment : Fragment() {
+class MaterialButtonsDemoFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return FragmentMiscWidgetsBinding.inflate(layoutInflater, container, false).root
+        return FragmentMaterialButtonsDemoBinding.inflate(layoutInflater, container, false).root
     }
 
     companion object {
 
         @JvmStatic
-        fun newInstance(): MaterialMiscWidgetsFragment {
-            return MaterialMiscWidgetsFragment()
+        fun newInstance(): MaterialButtonsDemoFragment {
+            return MaterialButtonsDemoFragment()
         }
     }
 }

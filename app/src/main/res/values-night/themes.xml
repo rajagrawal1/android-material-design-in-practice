@@ -3,7 +3,7 @@
 
     <!--Material color attributes (dark theme) -->
 
-    <style name="Theme.MyApp" parent="Base.Theme.MyApp">
+    <style name="Theme.MyApp" parent="Base.Theme.App">
         <item name="colorPrimary">@color/black_800</item> <!--toolbar color-->
         <item name="colorPrimaryDark">@color/black_800</item> <!--status bar color-->
         <item name="colorPrimaryVariant">@color/primaryLightColor</item> <!--status bar color-->
