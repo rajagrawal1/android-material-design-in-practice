@@ -29,20 +29,19 @@
 
 - If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You can leave 'Other colors' as it is, since they can be suitable for most cases.
 - Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
-- Concept: ![Alt text](/screens/concept.png?raw=true "Concept") <em>Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em>.
-- Concept applied (For reference only. The demo app in the project is different): ![Alt text](/screens/demo.png?raw=true "Concept applied").
-- App screenshots:
-<br>
+- Concept: <img src="/screens/concept.png" alt="Slightly modified and sourced from: https://speakerdeck.com/anitas3791/styles-themes-material-theming-oh-my/em" width="200" />
+- Concept applied: <img src="/screens/concept.png" alt="For reference only. The demo app in the project is different" width="200" />
+App screenshots:
 <p float="left">
-  <img src="/screens/1.png" width="100" />
-  <img src="/screens/2.png" width="100" />
-  <img src="/screens/3.png" width="100" />
-  <img src="/screens/4.png" width="100" />
-  <img src="/screens/5.png" width="100" />
-  <img src="/screens/6.png" width="100" />
-  <img src="/screens/7.png" width="100" />
-  <img src="/screens/8.png" width="100" />
-  <img src="/screens/9.png" width="100" />
+  <img src="/screens/1.png" alt="Default font scaling" width="200" />
+  <img src="/screens/2.png" alt="Typogtraphy with default font scaling" width="200" />
+  <img src="/screens/3.png" alt="Increased font scaling" width="200" />
+  <img src="/screens/4.png" alt="Typography with increased font scaling" width="200" />
+  <img src="/screens/5.png" alt="Material Buttons" width="200" />
+  <img src="/screens/6.png" alt="Material Text Input Layouts" width="200" />
+  <img src="/screens/7.png" alt="Material Cards" width="200" />
+  <img src="/screens/8.png" alt="Material Bottom Sheet" width="200" />
+  <img src="/screens/9.png" alt="Miscellaneous widgets" width="200" />
 </p>
 
 
