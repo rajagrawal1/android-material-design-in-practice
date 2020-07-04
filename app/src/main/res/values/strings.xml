@@ -34,4 +34,6 @@
     <string name="lbl_title_34ssp">Title Text - 34ssp</string>
     <string name="lbl_title_34dp">Title Text - 34dp</string>
     <string name="lbl_title_34sdp">Title Text - 34sdp</string>
+    <string name="lbl_show_bottom_sheet_rounded">Show Rounded Bottom-sheet</string>
+    <string name="lbl_show_simple_alert">Show Simple Alert</string>
 </resources>
