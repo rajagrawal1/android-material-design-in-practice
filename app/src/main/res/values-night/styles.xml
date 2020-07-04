@@ -45,19 +45,15 @@
         <item name="android:windowAnimationStyle">@style/Animation.AppTheme.BottomSheet.Modal</item>
     </style>
 
+    <style name="MaterialBottomSheet.Sharp.Tops" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">?attr/shapeAppearanceLargeComponent</item>
+    </style>
+
     <style name="App.Theme.BottomSheet.Rounded" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="bottomSheetStyle">@style/MaterialBottomSheet.Rounded.Tops</item>
         <item name="android:windowAnimationStyle">@style/Animation.AppTheme.BottomSheet.Modal</item>
-    </style>
-
-    <style name="MaterialBottomSheet.Sharp.Tops" parent="Widget.MaterialComponents.BottomSheet.Modal">
-        <item name="shapeAppearanceOverlay">?attr/shapeAppearanceLargeComponent</item>
-    </style>
-
-    <style name="MaterialBottomSheet.Rounded.Tops" parent="Widget.MaterialComponents.BottomSheet.Modal">
-        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Rounded.Tops</item>
     </style>
 
     <!-- Material card view styles -->
@@ -112,40 +108,31 @@
 
     <style name="ShapeAppearance.Cut.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
         <item name="cornerFamily">cut</item>
-        <item name="cornerSize">@dimen/hard_corner_cuts</item>
+        <item name="cornerSize">18dp</item>
     </style>
 
     <style name="ShapeAppearance.Partial.Cut.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
         <item name="cornerFamilyTopLeft">cut</item>
         <item name="cornerFamilyBottomRight">cut</item>
-        <item name="cornerSizeTopLeft">@dimen/hard_corner_cuts</item>
-        <item name="cornerSizeBottomRight">@dimen/hard_corner_cuts</item>
+        <item name="cornerSizeTopLeft">18dp</item>
+        <item name="cornerSizeBottomRight">18dp</item>
     </style>
 
     <style name="ShapeAppearance.Rounded.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">@dimen/hard_corner_cuts</item>
+        <item name="cornerSize">36dp</item>
     </style>
 
     <style name="ShapeAppearance.Partial.Rounded.Corners" parent="ShapeAppearance.MaterialComponents.MediumComponent">
         <item name="cornerFamilyTopLeft">rounded</item>
         <item name="cornerFamilyBottomRight">rounded</item>
-        <item name="cornerSizeTopLeft">@dimen/hard_corner_cuts</item>
-        <item name="cornerSizeBottomRight">@dimen/hard_corner_cuts</item>
-    </style>
-
-    <style name="ShapeAppearance.Rounded.Tops" parent="ShapeAppearance.MaterialComponents.MediumComponent">
-        <item name="cornerFamilyTopLeft">rounded</item>
-        <item name="cornerFamilyTopRight">rounded</item>
-        <item name="cornerSizeTopLeft">@dimen/hard_corner_cuts</item>
-        <item name="cornerSizeTopRight">@dimen/hard_corner_cuts</item>
-        <item name="cornerSizeBottomLeft">0dp</item>
-        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">36dp</item>
+        <item name="cornerSizeBottomRight">36dp</item>
     </style>
 
     <style name="ShapeAppearance.Rounded.All.Light" parent="ShapeAppearance.MaterialComponents.MediumComponent">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">@dimen/light_corner_cuts</item>
+        <item name="cornerSize">@dimen/material_button_corners</item>
     </style>
 
 </resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApp" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/black_800</item> <!--toolbar color-->
+        <item name="colorPrimaryDark">@color/black_800</item> <!--status bar color-->
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item> <!--status bar color-->
+        <item name="colorSecondary">@color/secondaryColor</item> <!--fab icon color-->
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item> <!--use sparingly-->
+
+        <item name="android:colorBackground">@color/black_900</item>
+
+        <item name="android:textColorPrimary">@color/secondaryTextColor</item>
+        <item name="android:textColorSecondary">@color/primaryTextColor</item>
+
+        <item name="colorOnPrimary">@color/white_50</item>
+        <item name="colorOnSecondary">@color/white_50</item>
+        <item name="colorOnBackground">@color/white_50</item>
+        <item name="colorOnSurface">@color/white_50</item>
+        <item name="colorOnError">@color/white_50</item>
+        <item name="colorSurface">@color/black_800</item>
+        <item name="colorError">@color/red_200</item>
+
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
