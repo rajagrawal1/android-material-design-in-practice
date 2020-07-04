@@ -5,8 +5,10 @@
 
     <style name="App.Theme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="hintTextColor">?colorSecondaryVariant</item>
-        <item name="boxStrokeColor">?colorSecondary</item>
+        <item name="boxStrokeColor">@color/material_text_input_border_states</item>
         <item name="theme">@style/TextInputCursorColor</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxStrokeWidth">1dp</item>
     </style>
 
     <!-- Tab Layout styles -->
@@ -33,7 +35,8 @@
         <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Rounded.All.Light</item>
         <item name="android:padding">12dp</item>
         <item name="rippleColor">@color/secondaryLightColor</item>
-        <item name="backgroundTint">@drawable/material_button_solid_states_pink</item>
+        <item name="backgroundTint">@drawable/material_button_pink_background</item>
+        <item name="android:textColor">@drawable/material_button_pink_text</item>
     </style>
 
     <!-- Bottom sheet styles -->
