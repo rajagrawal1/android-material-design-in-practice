@@ -7,9 +7,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context=".MaterialMiscWidgetsFragment">
 
-        <!-- depends on default button theme as declared in styles.xml-->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_bottom_sheet"
             android:layout_width="wrap_content"
@@ -20,6 +20,17 @@
             android:layout_marginEnd="@dimen/standard_margin"
             android:layout_marginRight="@dimen/standard_margin"
             android:text="@string/lbl_show_bottom_sheet" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_bottom_sheet_rounded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:text="@string/lbl_show_bottom_sheet_rounded" />
 
     </LinearLayout>
 
