@@ -1,7 +1,7 @@
 # Material Design in Practice.
 
 ## Purpose
-- Intended to be simple - A project to demonstrate the usage of color palette, typography and shapes as per the [material design guidelines](https://material.io/design/introduction "material design guidelines").
+- Intended to be simple and practical - A project to demonstrate the usage of color palette, typography and shapes as per the [material design guidelines](https://material.io/design/introduction "material design guidelines"). Also shares a method to properly scale text sizes.
 
 ## Configuration
 - Uses both app wide and view level theming.
@@ -29,7 +29,7 @@
 
 -	 If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You can leave 'Other colors' as it is, since they can be suitable for most cases.
 
-- **Day/ Night mode** - Toggle by clicking the top right icon on toolbar.
+- **Day/ Night mode** - Although the app auto-switches to appropriate mode depending on system settings. You can override the toggle by clicking the top right icon on toolbar.
 
 - **App-wide widget theming** - Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
 
