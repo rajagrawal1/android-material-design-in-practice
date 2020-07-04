@@ -22,5 +22,6 @@
         <item name="colorOnError">@color/white_50</item>
         <item name="colorSurface">@color/black_800</item>
         <item name="colorError">@color/red_200</item>
+
     </style>
 </resources>
