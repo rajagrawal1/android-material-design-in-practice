@@ -23,8 +23,11 @@ class MaterialModalsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         mBinding.buttonBottomSheet.setOnClickListener {
-            MaterialBottomSheetFragment()
-                .show(requireFragmentManager(), MaterialBottomSheetFragment.FRAGMENT_TAG)
+            MaterialBottomSheetFragment.newInstance().show(requireFragmentManager(), MaterialBottomSheetFragment.FRAGMENT_TAG)
+        }
+
+        mBinding.buttonBottomSheetRounded.setOnClickListener {
+            MaterialRoundedBottomSheetFragment.newInstance().show(requireFragmentManager(), MaterialRoundedBottomSheetFragment.FRAGMENT_TAG)
         }
     }
 
