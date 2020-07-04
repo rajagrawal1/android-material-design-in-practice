@@ -42,7 +42,7 @@
 <br>
 <img src="/screens/demo.png" alt="For reference only. The demo app in the project is different." width="500" />
 
-## App screenshots - On Pixel 2, Android 10 (API 19), Day mode.
+## App screenshots - On Pixel 2, Android 10 (API 29), Day mode.
 <p float="left">
   <img src="/screens/1.png" alt="Default font scaling" width="200" />
   <img src="/screens/2.png" alt="Typogtraphy with default font scaling" width="200" />
