@@ -5,5 +5,7 @@
     <dimen name="standard_margin">16dp</dimen>
     <dimen name="card_height">180dp</dimen>
     <dimen name="material_button_corners">6dp</dimen>
+    <dimen name="hard_corner_cuts">18dp</dimen>
+    <dimen name="light_corner_cuts">18dp</dimen>
     <dimen name="standard_padding">12dp</dimen>
 </resources>
