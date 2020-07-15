@@ -8,7 +8,7 @@
 - Min SDK support is API 16.
 
 ## Usage
-- **themes.xml** - Based on declared attributes in this file, the app automatically picks it up to appling a basic skin to itself during runtime - whether on day or night mode.
+- **themes.xml** - The app automatically looks into this file during runtime to skin itself - this is an important step to setup day/ night mode.
 
 - **styles.xml** - All view specific styles are neatly declared in this file.
 
