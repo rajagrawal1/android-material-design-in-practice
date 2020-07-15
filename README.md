@@ -8,12 +8,12 @@
 - Min SDK support is API 16.
 
 ## Usage
-- **themes.xml** - Does the job of referring the appropriate styling templates on runtime - whether on day or night mode.
+- **themes.xml** - Based on declared attributes in this file, the app automatically picks it up to appling a basic skin to itself during runtime - whether on day or night mode.
 
-- **styles.xml** - The view specific styles are nearly declared under styles.xml.
+- **styles.xml** - All view specific styles are neatly declared in this file.
 
 - **Scaling typography** - This section contains 4 sizing variants for the text - sp, ssp, dp, sdp.
-	- "ssp and sdp" are good alternatives over "sp and dp" if you do not wish to manage varying dimens.xml. The intuit library handles it for you. Be aware that while developing for tablets, this may not be the best idea.
+	- "ssp and sdp" are good alternatives over "sp and dp" if you do not wish to manage varying dimens.xml. The intuit library has a bundle of pre-defined dimens.xml that handles it for you. Note that while developing for tablets, this may not be the best idea.
 	- The main difference you can see is that "sp and ssp" respond when user changes the font size from system settings. However, "dp and sdp" do not. Run the MDIP app, switch to typography tab and test it out yourself.
 
 - **Easy color management** - Use [color palette generator tool](https://material.io/resources/color "generator tool") for preparing a new color scheme, export to the Android format (color.xml) and use the color variables to replace the existing set in the project.
