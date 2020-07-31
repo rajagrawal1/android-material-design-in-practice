@@ -3,12 +3,17 @@
 
     <!--Material color attributes (dark theme) -->
 
+
+
     <style name="Theme.MyApp" parent="Base.Theme.App">
         <item name="colorPrimary">@color/black_800</item> <!--toolbar color-->
         <item name="colorPrimaryDark">@color/black_800</item> <!--status bar color-->
         <item name="colorPrimaryVariant">@color/primaryLightColor</item> <!--status bar color-->
         <item name="colorSecondary">@color/secondaryColor</item> <!--fab icon color-->
         <item name="colorSecondaryVariant">@color/secondaryLightColor</item> <!--use sparingly-->
+
+        <item name="colorSurface">@color/black_800</item>
+        <item name="colorError">@color/red_200</item>
 
         <item name="android:colorBackground">@color/black_900</item>
 
@@ -20,8 +25,6 @@
         <item name="colorOnBackground">@color/white_50</item>
         <item name="colorOnSurface">@color/white_50</item>
         <item name="colorOnError">@color/white_50</item>
-        <item name="colorSurface">@color/black_800</item>
-        <item name="colorError">@color/red_200</item>
 
     </style>
 </resources>

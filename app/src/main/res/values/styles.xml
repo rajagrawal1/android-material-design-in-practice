@@ -151,4 +151,20 @@
         <item name="cornerSize">@dimen/light_corner_cuts</item>
     </style>
 
+    <!-- Toolbar -->
+
+    <style name="ToolbarAppearance" parent="Widget.MaterialComponents.Toolbar.PrimarySurface">
+        <item name="popupTheme">@style/ToolbarAppearanceOverlay</item>
+        <item name="theme">@style/ToolbarAppearanceOverlay</item>
+    </style>
+
+    <!-- For widgets on Toolbar -->
+
+    <style name="ToolbarAppearanceOverlay">
+        <item name="android:textColorPrimary">?colorOnPrimary</item>
+        <item name="colorControlNormal">?colorOnPrimary</item>
+        <item name="colorControlHighlight">?colorOnPrimary</item>
+        <item name="android:textColorHint">?colorOnPrimary</item>
+    </style>
+
 </resources>

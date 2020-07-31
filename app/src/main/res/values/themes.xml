@@ -12,13 +12,14 @@
         <item name="colorSecondary">@color/secondaryColor</item> <!--fab icon color-->
         <item name="colorSecondaryVariant">@color/secondaryDarkColor</item> <!--use sparingly-->
 
+        <item name="colorSurface">@color/white_50</item>
+        <item name="colorError">@color/red_600</item>
+
         <item name="android:colorBackground">@color/white_50</item>
 
         <item name="android:textColorPrimary">@color/primaryTextColor</item>
         <item name="android:textColorSecondary">@color/secondaryTextColor</item>
 
-        <item name="colorSurface">@color/white_50</item>
-        <item name="colorError">@color/red_600</item>
         <item name="colorOnPrimary">@color/black_900</item>
         <item name="colorOnSecondary">@color/white_50</item>
         <item name="colorOnBackground">@color/black_900</item>
@@ -29,8 +30,8 @@
 
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item> <!-- this applies a default theme for all alert dialogs -->
         <item name="bottomSheetDialogTheme">@style/App.Theme.BottomSheet</item> <!-- this applies a default theme for all bottom sheets  -->
-        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item> <!-- this applies a default theme for all toolbars -->
-        <item name="tabStyle">@style/App.Theme.TabLayout</item> <!-- this applies a default theme for all tablayouts -->
+        <item name="toolbarStyle">@style/ToolbarAppearance</item> <!-- this applies a default theme for all toolbars -->
+        <item name="tabStyle">@style/App.Theme.TabLayout</item> <!-- this applies a default theme for all tab-layouts -->
         <item name="materialCardViewStyle">@style/App.Theme.MaterialCardView</item> <!-- this applies a default theme for all material card view-->
         <item name="materialButtonStyle">@style/App.Theme.Button</item> <!-- this applies a default theme for all material buttons -->
     </style>

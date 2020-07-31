@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- These aren't repeated styles, but contains additional attributes for specific widgets. -->
+
     <style name="App.Theme.BottomSheet" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="bottomSheetStyle">@style/MaterialBottomSheet.Sharp.Tops</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppTheme.BottomSheet.Modal</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
         <item name="android:navigationBarDividerColor">@android:color/darker_gray</item>
         <item name="android:navigationBarColor">@android:color/white</item>
         <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowAnimationStyle">@style/Animation.AppTheme.BottomSheet.Modal</item>
     </style>
 
     <style name="App.Theme.BottomSheet.Rounded" parent="ThemeOverlay.MaterialComponents.Dialog">
@@ -17,9 +21,11 @@
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="bottomSheetStyle">@style/MaterialBottomSheet.Rounded.Tops</item>
         <item name="android:windowAnimationStyle">@style/Animation.AppTheme.BottomSheet.Modal</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
         <item name="android:navigationBarDividerColor">@android:color/darker_gray</item>
         <item name="android:navigationBarColor">@android:color/white</item>
         <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 </resources>
