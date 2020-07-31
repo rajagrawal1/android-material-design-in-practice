@@ -151,11 +151,17 @@
         <item name="cornerSize">@dimen/light_corner_cuts</item>
     </style>
 
-    <!-- Toolbar -->
+    <!-- Toolbar style if you're extending Theme.MaterialComponents.DayNight.DarkActionBar -->
 
     <style name="ToolbarAppearance" parent="Widget.MaterialComponents.Toolbar.PrimarySurface">
         <item name="popupTheme">@style/ToolbarAppearanceOverlay</item>
         <item name="theme">@style/ToolbarAppearanceOverlay</item>
+    </style>
+
+    <!-- Toolbar style if you're extending Theme.MaterialComponents.DayNight.NoActionBar -->
+
+    <style name="ToolbarAppearance.NoActionBar" parent="Widget.MaterialComponents.Toolbar.PrimarySurface">
+        <item name="materialThemeOverlay">@style/ToolbarAppearanceOverlay</item>
     </style>
 
     <!-- For widgets on Toolbar -->
