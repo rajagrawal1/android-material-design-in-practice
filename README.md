@@ -30,6 +30,8 @@
 -	 If you wish to try different new schemes - simply replace the colors under "Base Color Scheme" and above "Other colors" in color.xml. You can leave 'Other colors' as it is, since they can be suitable for most cases.
 
 - **Day/ Night mode** - The app auto-switches to appropriate mode depending on system settings. You can override this by clicking the top right icon on toolbar.
+    For day/ night theming of widgets, this project uses ?colorName attribute.
+    For instance, if you're referencing with ?colorPrimary instead of a hard-coded @color/primaryColor, you're instructing the app to pick the defined color for ?colorPrimary in themes.xml (of day or night version at runtime).                                                 And each of these files will contain different colors to suit day/ night mode.
 
 - **App-wide widget theming** - Take advantage of a new feature in the latest material design library that allows app-wide application of common styling for views from a single place - Refer to the base theme for an example.
 
